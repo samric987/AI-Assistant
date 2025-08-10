@@ -1,0 +1,57 @@
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.message-list {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  max-width: 90%;
+}
+
+.message.user {
+  background-color: #d1e7dd;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background-color: #f8d7da;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.message-text {
+  margin-bottom: 6px;
+}
+
+.message-audio {
+  width: 100%;
+  outline: none;
+}
+
+.chat-form input,
+.chat-form textarea,
+.chat-form select {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.chat-form button {
+  padding: 0.5rem 1rem;
+}
